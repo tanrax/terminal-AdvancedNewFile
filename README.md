@@ -37,12 +37,6 @@ advance() {
 }
 ```
 
-or
-
-```bash
-cat $HOME/.bashrc | curl -F https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/script.sh
-```
-
 Then restart the Bash or Zsh
 
 ```bash
