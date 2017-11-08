@@ -1,4 +1,4 @@
-Simple script for the terminal that mimics the operation of **AdvancedNewFile** (Vim plugin)
+Script for the terminal that mimics the operation of **AdvancedNewFile** (Vim plugin)
 
 ## Use
 
