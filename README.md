@@ -1,4 +1,4 @@
-Script for the terminal that mimics the operation of **AdvancedNewFile** (Vim plugin)
+Terminal script for fast creation of files and directories. Mimics the operation of **AdvancedNewFile** (Vim plugin)
 
 ## Use
 
@@ -12,11 +12,11 @@ ad [path file or folder]
 ad airport/plane/
 ```
 
-Result:
 ```
 airport/
 ├── plane/
 ```
+---
 
 ```bash
 ad airport/plane/captain.txt
