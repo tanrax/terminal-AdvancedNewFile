@@ -3,7 +3,7 @@ Script for the terminal that mimics the operation of **AdvancedNewFile** (Vim pl
 ## Use
 
 ```bash
-ad [url]
+ad [path file or folder]
 ```
 
 ## Example
@@ -12,13 +12,21 @@ ad [url]
 ad airport/plane/
 ```
 
-Result: airport(folder) > plane (folder)
+Result:
+```
+airport/
+├── plane/
+```
 
 ```bash
 ad airport/plane/captain.txt
 ```
 
-Result: airport (folder) > plane (folder) > captain.txt (file)
+```
+airport/
+├── plane/
+│   ├── captain.txt
+```
 
 
 ## Install
