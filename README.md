@@ -3,19 +3,19 @@ Simple script for the terminal that mimics the operation of **AdvancedNewFile** 
 ## Use
 
 ```bash
-advance [url]
+ad [url]
 ```
 
 ## Example
 
 ```bash
-advance airport/plane/
+ad airport/plane/
 ```
 
 Result: airport(folder) > plane (folder)
 
 ```bash
-advance airport/plane/captain.txt
+ad airport/plane/captain.txt
 ```
 
 Result: airport (folder) > plane (folder) > captain.txt (file)
@@ -23,23 +23,6 @@ Result: airport (folder) > plane (folder) > captain.txt (file)
 
 ## Install
 
-Add an alias to .bashrc or .zshrc
-
 ```bash
-## Advance new file
-advance() {
-	if [[ "$@" == */ ]] then
-		mkdir -p $@
-	else
-		for f in "$@"; do mkdir -p "$(dirname "$f")"; done
-		touch "$@"
-	fi
-}
+ADVANCE=/usr/local/bin/ad && curl -o $ADVANCE https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/bin/advance && chmod +x $ADVANCE && unset ADVANCE
 ```
-
-Then restart the Bash or Zsh
-
-```bash
-source $HOME/.bashrc
-```
-
