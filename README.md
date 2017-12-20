@@ -34,3 +34,9 @@ airport/
 ```bash
 ADVANCE=/usr/local/bin/ad && curl -o $ADVANCE https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/bin/advance && chmod +x $ADVANCE && unset ADVANCE
 ```
+
+## Update
+
+```bash
+ADVANCE=/usr/local/bin/ad && rm $ADVANCE && curl -o $ADVANCE https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/bin/advance && chmod +x $ADVANCE && unset ADVANCE
+```
