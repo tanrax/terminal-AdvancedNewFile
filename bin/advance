@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 #
 # Simple script for the terminal that mimics the operation of AdvancedNewFile (Vim plugin)
@@ -7,9 +7,16 @@
 # License: MIT
 #
 
-if [[ "$@" == */ ]]; then
-	mkdir -p $@
-else
-	for f in "$@"; do mkdir -p "$(dirname "$f")"; done
-	touch "$@"
-fi
+
+for f in "$@"
+do
+  dir="${f%/*}"
+  file="${f##*/}"
+
+  if [ -n "$dir" ]; then
+	mkdir -p "$dir"
+  fi
+  if [ -n "$file" ]; then
+    touch "./$dir/$file"
+  fi
+done
