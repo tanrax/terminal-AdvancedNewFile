@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env python3
 
 #
 # Simple script for the terminal that mimics the operation of AdvancedNewFile (Vim plugin)
@@ -6,17 +6,17 @@
 # Author: Andros Fenollosa
 # License: MIT
 #
+import sys
+import os
 
+# Variables
+path = sys.argv[1]
 
-for f in "$@"
-do
-  dir="${f%/*}"
-  file="${f##*/}"
+# Make folders
+new_dirs = '/'.join(path.split('/')[0:-1])
+if not os.path.exists(new_dirs) and new_dirs != '':
+    os.makedirs(new_dirs)
 
-  if [ -n "$dir" ]; then
-	mkdir -p "$dir"
-  fi
-  if [ -n "$file" ]; then
-    touch "./$dir/$file"
-  fi
-done
+# Make file
+if not path.endswith('/') and not os.path.isfile(path):
+    open(path, 'w+').close()
