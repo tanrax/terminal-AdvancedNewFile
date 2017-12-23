@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 #
-# Simple script for the terminal that mimics the operation of AdvancedNewFile (Vim plugin)
+# Simple script for the terminal that mimics the operation of AdvancedNewFile
+# (Vim plugin)
 #
 # Author: Andros Fenollosa
 # License: MIT
@@ -19,4 +20,8 @@ if not os.path.exists(new_dirs) and new_dirs != '':
 
 # Make file
 if not path.endswith('/') and not os.path.isfile(path):
-    open(path, 'w+').close()
+    try:
+        open(path, 'w+').close()
+    except IsADirectoryError:
+        pass
+
