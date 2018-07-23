@@ -35,12 +35,6 @@ airport/
 
 ## Install
 
-```bash
-ADVANCE=/usr/local/bin/ad && sudo curl -o $ADVANCE https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/bin/advance && sudo chmod +x $ADVANCE && unset ADVANCE
-```
-
-## Update
-
-```bash
-ADVANCE=/usr/local/bin/ad && rm $ADVANCE && sudo curl -o $ADVANCE https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/bin/advance && sudo chmod +x $ADVANCE && unset ADVANCE
+``` bash
+pip3 install advance-touch
 ```
