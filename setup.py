@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
   name = 'advance-touch',
   py_modules=['advance_touch'],
-  version = '1.0.0',
+  version = '1.0.1',
   python_requires='>3.6',
   description = 'Fast creation of files and directories. Mimics the operation of AdvancedNewFile (Vim plugin)',
   author = 'Andros Fenollosa',

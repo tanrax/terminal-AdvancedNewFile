@@ -16,7 +16,7 @@ def advance_touch(path, cd):
         os.makedirs(new_dirs)
     # Change directory
     if cd:
-        cd_path = os.path.join(os.getcwd(), new_dirs)
+        cd_path = os.path.join(os.getcwd(), new_dirs) + '/'
         os.chdir(cd_path)
 
     # Make file
