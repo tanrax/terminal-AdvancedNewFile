@@ -1,5 +1,9 @@
 Terminal script for fast creation of files and directories. Mimics the operation of **AdvancedNewFile** (Vim plugin)
 
+<p align="center">
+    <img src="https://cdn.rawgit.com/tanrax/terminal-AdvancedNewFile/master/demo.svg">
+</p>
+
 ## Use
 
 ```bash
