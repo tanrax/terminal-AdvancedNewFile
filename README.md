@@ -10,6 +10,8 @@
 ad [path file or folder]
 ```
 
+And it supports multiple arguments!
+
 ## Example
 
 ```bash
@@ -32,6 +34,34 @@ airport/
 │   ├── captain.txt
 ```
 
+---
+
+```bash
+ad airport/ train-station/train.txt
+```
+
+```
+airport/
+├── plane/
+train-station/
+├── train.txt
+```
+
+---
+
+```bash
+# If your shell supports arguments expansion
+ad airport/plane/{captain,passenger}.txt
+```
+
+```
+airport/
+├── plane/
+│   ├── captain.txt
+│   ├── passenger.txt
+```
+
+---
 
 ## Install
 
