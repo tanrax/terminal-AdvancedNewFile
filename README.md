@@ -15,7 +15,13 @@ ad [path file or folder]
 ## Install
 
 ``` bash
-pip3 install advance-touch
+pip3 install --user advance-touch
+```
+
+## Update
+
+``` bash
+pip3 install --user --upgrade advance-touch
 ```
 
 ## Examples
