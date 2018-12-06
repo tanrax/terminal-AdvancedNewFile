@@ -3,7 +3,7 @@
 And it supports multiple arguments!
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/tanrax/terminal-AdvancedNewFile/master/demo.svg">
+    <img src="https://min.gitcdn.link/repo/tanrax/terminal-AdvancedNewFile/master/demo.svg">
 </p>
 
 ## Use
