@@ -26,7 +26,7 @@ pip3 install --user --upgrade advance-touch
 
 ## 📚 Examples 📚
 
-### Single folder 👨
+### Single folder 📁
 
 ```bash
 ad airport/plane/
@@ -38,7 +38,7 @@ airport/
 ```
 ---
 
-### Multiple folders 👨 👨 👨
+### Multiple folders 📁➕📁➕📁
 
 ```bash
 ad airport/ station/ port/
@@ -51,7 +51,7 @@ port/
 ```
 ---
 
-### Single file with your hierarchy of folders 👴🧔👶
+### Single file with your hierarchy of folders 📁➡️📁➡️📝
 
 ```bash
 ad airport/plane/captain.txt
@@ -65,7 +65,7 @@ airport/
 
 ---
 
-### Folder and single file with your hierarchy of folders 🧔 🧔👶
+### Folder and single file with your hierarchy of folders 📁➕📁➡️📝
 
 ```bash
 ad airport/ train-station/train.txt
@@ -79,7 +79,7 @@ train-station/
 ```
 ---
 
-### If your shell supports arguments expansion 👴🧔🤖
+### If your shell supports arguments expansion 📁➡️📁➡️📝🤖
 
 ```bash
 ad airport/plane/{captain,passenger}.txt
