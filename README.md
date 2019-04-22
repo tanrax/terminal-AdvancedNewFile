@@ -1,32 +1,32 @@
-# Advanced New File
+# ⚡ Advanced New File ⚡
 
-And it supports multiple arguments!
+Add to your terminal the option to quickly create folders and files like a pro.
 
 <p align="center">
     <img src="https://min.gitcdn.link/repo/tanrax/terminal-AdvancedNewFile/master/demo.svg">
 </p>
 
-## Use
+## Use ⚙️
 
 ```bash
 ad [path file or folder]
 ```
 
-## Install
+## Install 🔌
 
 ``` bash
 pip3 install --user advance-touch
 ```
 
-## Update
+## Update 💾
 
 ``` bash
 pip3 install --user --upgrade advance-touch
 ```
 
-## Examples
+## 📚 Examples 📚
 
-### Single folder
+### Single folder 👨
 
 ```bash
 ad airport/plane/
@@ -38,7 +38,7 @@ airport/
 ```
 ---
 
-### Multiple folders
+### Multiple folders 👨 👨 👨
 
 ```bash
 ad airport/ station/ port/
@@ -51,7 +51,7 @@ port/
 ```
 ---
 
-### Single file with your hierarchy of folders
+### Single file with your hierarchy of folders 👴🧔👶
 
 ```bash
 ad airport/plane/captain.txt
@@ -65,7 +65,7 @@ airport/
 
 ---
 
-### Folder and single file with your hierarchy of folders
+### Folder and single file with your hierarchy of folders 🧔 🧔👶
 
 ```bash
 ad airport/ train-station/train.txt
@@ -79,7 +79,7 @@ train-station/
 ```
 ---
 
-### If your shell supports arguments expansion
+### If your shell supports arguments expansion 👴🧔🤖
 
 ```bash
 ad airport/plane/{captain,passenger}.txt
