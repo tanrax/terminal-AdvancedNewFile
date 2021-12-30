@@ -3,7 +3,7 @@
 Add to your terminal the option to quickly create folders and files like a pro.
 
 <p align="center">
-    <img src="https://min.gitcdn.link/repo/tanrax/terminal-AdvancedNewFile/master/demo.svg">
+    <img src="https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/demo.svg">
 </p>
 
 ## Use ⚙️
