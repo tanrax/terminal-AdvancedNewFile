@@ -1,4 +1,7 @@
-# ⚡ Advanced New File ⚡
+<p align="center">
+    <img src="pet.png" width="200">
+    <h1 align="center">⚡ Advanced New File ⚡</h1>
+</p>
 
 Add to your terminal the option to quickly create folders and files like a pro.
 
@@ -94,3 +97,5 @@ airport/
 ---
 
 Thanks to the power of 🐍 Python 🐍
+
+Pet created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/folder)
