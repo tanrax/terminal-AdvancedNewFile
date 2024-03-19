@@ -9,6 +9,8 @@ Add to your terminal the option to quickly create folders and files like a pro.
     <img src="https://raw.githubusercontent.com/tanrax/terminal-AdvancedNewFile/master/demo.svg">
 </p>
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ## Use ⚙️
 
 ```bash
